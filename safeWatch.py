@@ -27,18 +27,7 @@ def switchMenu(choice):
     #     decoderMenu()
     if choice == '2':
         repChecker()
-    # if choice == '4':
-    #     dnsMenu()
-    # if choice == '5':
-    #     hashMenu()
-    # if choice == '6':
-    #     phishingMenu()
-    # if choice == '7':
-    #     urlscanio()
-    # if choice == '9':
-    #     extrasMenu()
-    # if choice == '0':
-    #     sys.exit("Exiting Sooty... done")
+
     else:
         mainMenu()
 
@@ -48,13 +37,7 @@ def mainMenu():
     print("\n --------------------------------- ")
     print(" What would you like to do? ")
     print("\n OPTION 1: Sanitise URL For emails ")
-    # print(" OPTION 3: Decoders (PP, URL, SafeLinks) ")
     print(" OPTION 2: Reputation Checker")
-    # print(" OPTION 4: DNS Tools")
-    # print(" OPTION 5: Hashing Function")
-    # print(" OPTION 6: Phishing Analysis")
-    # print(" OPTION 7: URL scan")
-    # print(" OPTION 9: Extras")
     print(" OPTION 0: Exit Tool")
     switchMenu(input())
 
